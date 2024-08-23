@@ -55,7 +55,7 @@
           </p>
         </div>
         <div class="tv">
-          <img src="/netflix/1feature.png" alt="" />
+          <img src="./netflix/1feature.png" alt="" />
         </div>
       </div>
     </section>
@@ -70,7 +70,7 @@
           </p>
         </div>
         <div class="tv2">
-          <img src="/netflix/2feature.png" alt="" />
+          <img src="./netflix/2feature.png" alt="" />
         </div>
       </div>
     </section>
@@ -84,7 +84,7 @@
           </p>
         </div>
         <div class="tv">
-          <img src="/netflix/device-pile-in.png" alt="" />
+          <img src="./netflix/device-pile-in.png" alt="" />
         </div>
       </div>
     </section>
@@ -99,7 +99,7 @@
           </p>
         </div>
         <div class="tv2">
-          <img src="/netflix/pro.png" alt="" />
+          <img src="./netflix/pro.png" alt="" />
         </div>
       </div>
     </section>
@@ -160,22 +160,7 @@
         <a href="#" class="start">Get Started</a>
       </div>
 
-      <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
 
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-              panel.style.display = "none";
-            } else {
-              panel.style.display = "block";
-            }
-          });
-        }
-      </script>
     </section>
     <footer>
       <div class="ques">
@@ -213,5 +198,21 @@
         </select>
       </div>
     </footer>
+          <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
   </body>
 </html>
